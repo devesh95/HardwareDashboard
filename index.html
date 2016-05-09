@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PennApps Hardware</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="">
+    <link rel='icon' type='image/png' href='//pennapps.github.io/pennapps-unified-styles/img/favicon.png')>
+    <link rel="canonical" href="http://pennapps.mentoring.com/mentoring/">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <nav id="navbar" class="pennapps-nav fixed">
+
+      <div class="container">
+        <div class="nav-header">
+          <a href="#" class="nav-expand">
+            <span class="expand-bar"></span>
+            <span class="expand-bar"></span>
+            <span class="expand-bar"></span>
+          </a>
+          <a href="">
+            <h1 class="nav-brand">PennApps <span style="font-family: HalisR-Light">Hardware</span></h1>
+          </a>
+        </div>
+        <div class="nav-collapse">
+          <ul class="nav-links">
+            <li><a id="nav-slider" class="nav-slider"></a></li>
+
+              <li><a href="#parts-list"><div class="bubble"></div>Parts List</a></li>
+
+              <li><a href="#lab-hours"><div class="bubble"></div>Lab Hours</a></li>
+
+              <li><a href="#parts-checkout"><div class="bubble"></div>Parts Checkout</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 id="parts-list">Parts List</h1>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="center-block">
+            <!-- <h2>Live Parts List will be posted Friday</h2> -->
+
+            <iframe src="https://docs.google.com/spreadsheets/d/1BkRXrdomhHdM32iwqsofCqlUGLB7p0LpqbCvZQWMy2k/pubhtml/sheet?headers=false&gid=0&range=A2:C63" width="478" height="1000"></iframe>
+
+          </div>
+        </div>
+      </div>
+
+      <h1 id="lab-hours">Lab Hours</h1>
+
+      <h2>Hardware Checkout</h2>
+      <h3>Friday 8pm - Sunday 12pm</h3>
+      <p>All parts are first come first serve</p>
+
+      <h2>3D Printing <a href="https://docs.google.com/forms/d/16T8IKRr_QZHNAV_Iu-_h6lNmyYOGKmZzm1JVx7nDv18/viewform?usp=send_form">Sign up</a></h2>
+      <h3>Friday 8pm-12am, Saturday 12pm-10pm</h3>
+      <p>10 Makerbots with PLA available</p>
+      <h4>Printing Instructions</h4>
+      <ol>
+        <li>Make a .STL on a cad program</li>
+        <li>Import .STL into Makerware</li>
+        <li>Minimize Print Time, Support, etc</li>
+        <li>Maximum print time is 2 hours</li>
+        <li>Find 3d Staff Member</li>
+        <li>Load .X3G on SD card and give to 3d Staff to print</li>
+        <li>Pick up Print from 3d Staff</li>
+      </ol>
+
+      <h2>Laser Cutting <a href="https://docs.google.com/forms/d/16T8IKRr_QZHNAV_Iu-_h6lNmyYOGKmZzm1JVx7nDv18/viewform?usp=send_form">Sign up</a></h2>
+      <h3>Friday 8pm-12am, Satuday 12pm-10pm</h3>
+      <p>We have 4 laser cutters available to use</p>
+      <h4>Cutting Instructions</h4>
+      <ol>
+        <li>Make a .STL on a cad program</li>
+        <li>Import .STL into Makerware</li>
+        <li>Minimize Print Time, Support, etc</li>
+        <li>Maximum print time is 2 hours</li>
+        <li>Find 3d Staff Member</li>
+        <li>Load .X3G on SD card and give to 3d Staff to print</li>
+        <li>Pick up Print from 3d Staff</li>
+      </ol>
+
+      <h2>Soldering</h2>
+      <h3>Hardware Lab, Saturday 8am - Sunday 10am</h3>
+
+      <h1 id="parts-checkout">Parts Checkout</h1>
+      <h2>Hardware Parts Checkout will be located in Moore 100</h2>
+      <p>Hardware Starter Kits will be passed out when you check in for the first time!</p>
+      <p>Please do not forget to sign in before you checkout hardware</p>
+
+      <h3>No Drones</h3>
+      <h3>No Soldering Outside the Soldering Lab</h3>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6">
+          <div class="footer-col">
+            <img height="50px" src="//pennapps.github.io/pennapps-unified-styles/img/logo_white.svg" />
+            <p>
+              &copy; 2016 PennApps <br />
+              <a href="mailto:contact@pennapps.com">contact@pennapps.com</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer-col">
+            <p>
+              <a href="https://www.facebook.com/pennapps">Facebook</a> <br/>
+              <a href="https://twitter.com/pennapps">Twitter</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="footer-col">
+            <p>Organized with support from:</p>
+            <a href="http://www.seas.upenn.edu">
+              <img height="50px" style="margin-top: 10px;" src="//pennapps.github.io/pennapps-unified-styles/img/penn_engineering_logo_white.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      nav.initializeNav($('#navbar'), 0);
+      nav.registerCollapse($('#navbar'), function () {
+        return $(window).width() <= 768
+      });
+      nav.initializeCollapse();
+    </script>
+  </body>
+</html>
