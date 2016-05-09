@@ -1,0 +1,22 @@
+{
+  "name": "hardwaredashboard",
+  "version": "1.0.0",
+  "description": "Hardware dashboard integrated with Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devesh95/HardwareDashboard.git"
+  },
+  "author": "Devesh Dayal <devesh95@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devesh95/HardwareDashboard/issues"
+  },
+  "homepage": "https://github.com/devesh95/HardwareDashboard",
+  "dependencies": {
+    "slack": "^7.0.0"
+  }
+}
